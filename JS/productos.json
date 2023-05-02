@@ -1,0 +1,182 @@
+[
+  {
+    "id": "behance1",
+    "titulo": "Behance 1",
+    "imagen": "./IMGS/NFT9.jpg",
+    "categoria": {
+      "nombre": "Behance",
+      "id": "behance"
+    },
+    "precio": 10000
+  },
+  {
+    "id": "behance2",
+    "titulo": "Behance 2",
+    "imagen": "./IMGS/NFT10.jpg",
+    "categoria": {
+      "nombre": "Behance",
+      "id": "behance"
+    },
+    "precio": 14000
+  },
+  {
+    "id": "behance3",
+    "titulo": "Behance 3",
+    "imagen": "./IMGS/NFT11.jpg",
+    "categoria": {
+      "nombre": "Behance",
+      "id": "behance"
+    },
+    "precio": 22000
+  },
+  {
+    "id": "behance4",
+    "titulo": "Behance 4",
+    "imagen": "./IMGS/NFT12.jpg",
+    "categoria": {
+      "nombre": "Behance",
+      "id": "behance"
+    },
+    "precio": 13000
+  },
+  {
+    "id": "behance5",
+    "titulo": "Behance 5",
+    "imagen": "./IMGS/NFT13.jpg",
+    "categoria": {
+      "nombre": "Behance",
+      "id": "behance"
+    },
+    "precio": 18000
+  },
+  {
+    "id": "yugaLabs 1",
+    "titulo": "Yuga Labs 1",
+    "imagen": "./IMGS/NFT1.jpg",
+    "categoria": {
+      "nombre": "Yuga Labs",
+      "id": "yugaLabs"
+    },
+    "precio": 10900
+  },
+  {
+    "id": "yugaLabs 2",
+    "titulo": "Yuga Labs 2",
+    "imagen": "./IMGS/NFT2.jpg",
+    "categoria": {
+      "nombre": "Yuga Labs",
+      "id": "yugaLabs"
+    },
+    "precio": 10500
+  },
+  {
+    "id": "yugaLabs 3",
+    "titulo": "Yuga Labs 3",
+    "imagen": "./IMGS/NFT3.jpg",
+    "categoria": {
+      "nombre": "Yuga Labs",
+      "id": "yugaLabs"
+    },
+    "precio": 17000
+  },
+  {
+    "id": "yugaLabs 4",
+    "titulo": "Yuga Labs 4",
+    "imagen": "./IMGS/NFT4.jpg",
+    "categoria": {
+      "nombre": "Yuga Labs",
+      "id": "yugaLabs"
+    },
+    "precio": 15000
+  },
+  {
+    "id": "yugaLabs 5",
+    "titulo": "Yuga Labs 5",
+    "imagen": "./IMGS/NFT5.jpg",
+    "categoria": {
+      "nombre": "Yuga Labs",
+      "id": "yugaLabs"
+    },
+    "precio": 11000
+  },
+  {
+    "id": "yugaLabs 6",
+    "titulo": "Yuga Labs 6",
+    "imagen": "./IMGS/NFT6.jpg",
+    "categoria": {
+      "nombre": "Yuga Labs",
+      "id": "yugaLabs"
+    },
+    "precio": 16000
+  },
+  {
+    "id": "yugaLabs 7",
+    "titulo": "Yuga Labs 7",
+    "imagen": "./IMGS/NFT7.jpg",
+    "categoria": {
+      "nombre": "Yuga Labs",
+      "id": "yugaLabs"
+    },
+    "precio": 12800
+  },
+  {
+    "id": "yugaLabs 8",
+    "titulo": "Yuga Labs 8",
+    "imagen": "./IMGS/NFT8.jpg",
+    "categoria": {
+      "nombre": "Yuga Labs",
+      "id": "yugaLabs"
+    },
+    "precio": 21000
+  },
+  {
+    "id": "kingVectors 1",
+    "titulo": "King Vectors 1",
+    "imagen": "./IMGS/NFT14.jpg",
+    "categoria": {
+      "nombre": "King Vectors",
+      "id": "kingVectors"
+    },
+    "precio": 31000
+  },
+  {
+    "id": "kingVectors 2",
+    "titulo": "King Vectors 2",
+    "imagen": "./IMGS/NFT15.jpg",
+    "categoria": {
+      "nombre": "King Vectors",
+      "id": "kingVectors"
+    },
+    "precio": 25000
+  },
+  {
+    "id": "kingVectors 3",
+    "titulo": "King Vectors 3",
+    "imagen": "./IMGS/NFT16.jpg",
+    "categoria": {
+      "nombre": "King Vectors",
+      "id": "kingVectors"
+    },
+    "precio": 18000
+  },
+  {
+    "id": "kingVectors 4",
+    "titulo": "King Vectors 4",
+    "imagen": "./IMGS/NFT17.jpg",
+    "categoria": {
+      "nombre": "King Vectors",
+      "id": "kingVectors"
+    },
+    "precio": 41000
+  },
+  {
+    "id": "kingVectors 5",
+    "titulo": "King Vectors 5",
+    "imagen": "./IMGS/NFT18.jpg",
+    "categoria": {
+      "nombre": "King Vectors",
+      "id": "kingVectors"
+    },
+    "precio": 52000
+  }
+]
