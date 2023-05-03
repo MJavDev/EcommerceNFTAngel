@@ -12,7 +12,7 @@ closeMenu.addEventListener("click", () => {
 
 let productos = [];
 
-fetch("./js/productos.json")
+fetch("../JS/productos.json")
   .then((response) => response.json())
   .then((data) => {
     productos = data;
