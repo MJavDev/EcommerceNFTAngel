@@ -73,16 +73,16 @@ function actualizarBotonesEliminar() {
 function eliminarDelCarrito(e) {
   Toastify({
     text: "Producto eliminado",
-    duration: 3000,
+    duration: 1000,
     close: true,
     gravity: "top",
     position: "right",
     stopOnFocus: true,
     style: {
-      background: "linear-gradient(to right, #4b33a8, #785ce9)",
-      borderRadius: "2rem",
+      background: "linear-gradient(to right, green, green)",
+      borderRadius: "1rem",
       textTransform: "uppercase",
-      fontSize: ".75rem",
+      fontSize: "1rem",
     },
     offset: {
       x: "1.5rem",
@@ -108,8 +108,7 @@ function eliminarDelCarrito(e) {
 botonVaciar.addEventListener("click", vaciarCarrito);
 function vaciarCarrito() {
   Swal.fire({
-    title: "¿Estás seguro?",
-    icon: "question",
+    title: "¿Eliminar todos los productos seleccionados?",
     html: `Se van a borrar ${productosEnCarrito.reduce(
       (acc, producto) => acc + producto.cantidad,
       0

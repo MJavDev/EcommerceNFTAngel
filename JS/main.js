@@ -23,7 +23,7 @@ const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonesCategorias = document.querySelectorAll(".boton-categoria");
 const tituloPrincipal = document.querySelector("#titulo-principal");
 let botonesAgregar = document.querySelectorAll(".producto-agregar");
-const numerito = document.querySelector("#numerito");
+const indicador = document.querySelector("#indicador");
 
 botonesCategorias.forEach((boton) =>
   boton.addEventListener("click", () => {
@@ -87,7 +87,7 @@ let productosEnCarritoLS = localStorage.getItem("productos-en-carrito");
 
 if (productosEnCarritoLS) {
   productosEnCarrito = JSON.parse(productosEnCarritoLS);
-  actualizarNumerito();
+  actualizarIndicador();
 } else {
   productosEnCarrito = [];
 }
@@ -95,16 +95,16 @@ if (productosEnCarritoLS) {
 function agregarAlCarrito(e) {
   Toastify({
     text: "Producto agregado",
-    duration: 3000,
+    duration: 1000,
     close: true,
     gravity: "top",
     position: "right",
     stopOnFocus: true,
     style: {
-      background: "linear-gradient(to right, #4b33a8, #785ce9)",
-      borderRadius: "2rem",
+      background: "linear-gradient(to right, green , green)",
+      borderRadius: "1rem",
       textTransform: "uppercase",
-      fontSize: ".75rem",
+      fontSize: "1rem",
     },
     offset: {
       x: "1.5rem",
@@ -128,7 +128,7 @@ function agregarAlCarrito(e) {
     productosEnCarrito.push(productoAgregado);
   }
 
-  actualizarNumerito();
+  actualizarIndicador();
 
   localStorage.setItem(
     "productos-en-carrito",
@@ -136,10 +136,10 @@ function agregarAlCarrito(e) {
   );
 }
 
-function actualizarNumerito() {
-  let nuevoNumerito = productosEnCarrito.reduce(
+function actualizarIndicador() {
+  let nuevoIndicador = productosEnCarrito.reduce(
     (acc, producto) => acc + producto.cantidad,
     0
   );
-  numerito.innerText = nuevoNumerito;
+  indicador.innerText = nuevoIndicador;
 }

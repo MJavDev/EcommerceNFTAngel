@@ -1,55 +1,5 @@
 [
   {
-    "id": "behance1",
-    "titulo": "Behance 1",
-    "imagen": "./IMGS/NFT9.jpg",
-    "categoria": {
-      "nombre": "Behance",
-      "id": "behance"
-    },
-    "precio": 10000
-  },
-  {
-    "id": "behance2",
-    "titulo": "Behance 2",
-    "imagen": "./IMGS/NFT10.jpg",
-    "categoria": {
-      "nombre": "Behance",
-      "id": "behance"
-    },
-    "precio": 14000
-  },
-  {
-    "id": "behance3",
-    "titulo": "Behance 3",
-    "imagen": "./IMGS/NFT11.jpg",
-    "categoria": {
-      "nombre": "Behance",
-      "id": "behance"
-    },
-    "precio": 22000
-  },
-  {
-    "id": "behance4",
-    "titulo": "Behance 4",
-    "imagen": "./IMGS/NFT12.jpg",
-    "categoria": {
-      "nombre": "Behance",
-      "id": "behance"
-    },
-    "precio": 13000
-  },
-  {
-    "id": "behance5",
-    "titulo": "Behance 5",
-    "imagen": "./IMGS/NFT13.jpg",
-    "categoria": {
-      "nombre": "Behance",
-      "id": "behance"
-    },
-    "precio": 18000
-  },
-  {
     "id": "yugaLabs 1",
     "titulo": "Yuga Labs 1",
     "imagen": "./IMGS/NFT1.jpg",
@@ -130,6 +80,86 @@
     "precio": 21000
   },
   {
+    "id": "behance1",
+    "titulo": "Behance 1",
+    "imagen": "./IMGS/NFT9.jpg",
+    "categoria": {
+      "nombre": "Behance",
+      "id": "behance"
+    },
+    "precio": 10000
+  },
+  {
+    "id": "behance2",
+    "titulo": "Behance 2",
+    "imagen": "./IMGS/NFT10.jpg",
+    "categoria": {
+      "nombre": "Behance",
+      "id": "behance"
+    },
+    "precio": 14000
+  },
+  {
+    "id": "behance3",
+    "titulo": "Behance 3",
+    "imagen": "./IMGS/NFT11.jpg",
+    "categoria": {
+      "nombre": "Behance",
+      "id": "behance"
+    },
+    "precio": 22000
+  },
+  {
+    "id": "behance4",
+    "titulo": "Behance 4",
+    "imagen": "./IMGS/NFT21.jpg",
+    "categoria": {
+      "nombre": "Behance",
+      "id": "behance"
+    },
+    "precio": 13000
+  },
+  {
+    "id": "behance5",
+    "titulo": "Behance 5",
+    "imagen": "./IMGS/NFT13.jpg",
+    "categoria": {
+      "nombre": "Behance",
+      "id": "behance"
+    },
+    "precio": 88000
+  },
+  {
+    "id": "behance6",
+    "titulo": "Behance 6",
+    "imagen": "./IMGS/NFT22.jpg",
+    "categoria": {
+      "nombre": "Behance",
+      "id": "behance"
+    },
+    "precio": 19000
+  },
+  {
+    "id": "behance7",
+    "titulo": "Behance 7",
+    "imagen": "./IMGS/NFT23.jpg",
+    "categoria": {
+      "nombre": "Behance",
+      "id": "behance"
+    },
+    "precio": 28000
+  },
+  {
+    "id": "behance8",
+    "titulo": "Behance 8",
+    "imagen": "./IMGS/NFT24.jpg",
+    "categoria": {
+      "nombre": "Behance",
+      "id": "behance"
+    },
+    "precio": 32000
+  },
+  {
     "id": "kingVectors 1",
     "titulo": "King Vectors 1",
     "imagen": "./IMGS/NFT14.jpg",
@@ -178,5 +208,35 @@
       "id": "kingVectors"
     },
     "precio": 52000
+  },
+  {
+    "id": "kingVectors 6",
+    "titulo": "King Vectors 6",
+    "imagen": "./IMGS/NFT19.jpg",
+    "categoria": {
+      "nombre": "King Vectors",
+      "id": "kingVectors"
+    },
+    "precio": 62000
+  },
+  {
+    "id": "kingVectors 7",
+    "titulo": "King Vectors 7",
+    "imagen": "./IMGS/NFT20.jpg",
+    "categoria": {
+      "nombre": "King Vectors",
+      "id": "kingVectors"
+    },
+    "precio": 57000
+  },
+  {
+    "id": "kingVectors 8",
+    "titulo": "King Vectors 8",
+    "imagen": "./IMGS/NFT12.jpg",
+    "categoria": {
+      "nombre": "King Vectors",
+      "id": "kingVectors"
+    },
+    "precio": 85000
   }
 ]
